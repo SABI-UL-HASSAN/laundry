@@ -1,0 +1,131 @@
+
+.body {
+  margin: flex;
+  padding 20px;
+  font-family: Arial, sans-serif;
+  float: initial;
+  scrollbar-width: thin;
+  scrollbar-color: #f4f4f4 #fff;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #ffffff; 
+  box-shadow: 45px 25px 15px rgba(0, 0, 0, 0.1); 
+
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.navbar-brand .logo-icon {
+  font-size: 16px;
+  color: #007bff; 
+}
+
+.navbar-brand .logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; 
+}
+
+
+.navbar-links {
+ display: flex;
+ text-decoration-style: bar;
+ display: flex;
+ gap: 28px;
+ -moz-text-decoration-style: bar;
+  -webkit-text-decoration-style: bar;
+  -o-text-decoration-style: bar; 
+  -ms-text-decoration-style: bar; 
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333; 
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.navbar-links a:hover {
+  color: #007bff; 
+}
+
+.call-icon {
+  width: 20px;
+  height: 20px;
+  color: #fff; 
+  container: white; 
+  margin-right: -16px;
+  margin-left: -10px; 
+}
+
+
+.navbar-contact {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar-contact .phone {
+  font-size: 16px;
+  color: #007bff; 
+}
+
+.navbar-contact .appointment-btn {
+ padding: 0 20px;
+ margin-right: -19px ;
+ margin-left: 10px;
+ height: 78.5px;
+ background-color: #007bff;
+ color: #fff;
+ border: rectangle;
+ border-radius: 0px;
+ cursor: pointer;
+ font-size: 16px;
+ font-weight: 500;
+ display: 100%;
+ align-items: center;
+ transition: background-color 0.3s;
+ -webkit-border-radius:;
+ -moz-border-radius:;
+ -ms-border-radius:;
+ -o-border-radius:;
+ .navbar-contact.appointment-btn:hover ;
+ -webkit-transition: background-color 0.3s;
+ -moz-transition: background-color 0.3s;
+ -ms-transition: background-color 0.3s;
+ -o-transition: background-color 0.3s;
+{
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+  }
+
+  
+  .navbar-contact {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}

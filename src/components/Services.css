@@ -1,0 +1,78 @@
+.services {
+  text-align: center;
+  padding: 30px;
+}
+
+.services-header {
+  margin-bottom: 30px;
+}
+
+.services-btn {
+  background: rgba(138, 147, 255, 0.2);
+  color: #1e2a5a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: default;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.services h2 {
+  font-size: 24px;
+  color: #1e2a5a;
+  margin-bottom: 10px;
+  margin: 5px 0;
+}
+
+.services-grid {
+  display: grid;
+  font-style: normal;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.service-image {
+  width: 100%;
+  height: auto;
+}
+
+.service-text {
+  background-color: #5f79f5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.service-text h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.service-text p {
+  font-size: 14px;
+}

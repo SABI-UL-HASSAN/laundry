@@ -1,0 +1,51 @@
+.hero {
+    position: relative;
+    background: url("/hero-image.jpg") no-repeat center center/cover;
+    height: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: flex-start;
+    color: #2a3274;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    max-width: 669px;
+  }
+  
+  .hero-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left; 
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-btn {
+    background: #2a3274;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 21px;
+    transition: background 0.3s;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+}
+  
+  .explore-btn:hover {
+    background: #5a4ab0;
+  }
+  

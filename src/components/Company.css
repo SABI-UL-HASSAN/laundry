@@ -1,0 +1,129 @@
+.company-container {
+    text-align: center;
+    padding: 80px 90px;
+    background: #f8f9fc;
+    text-wrap-style:pretty;
+    color: #1e2a5a;
+
+  }
+  
+  /* Achievement Section */
+  .achievement-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .achievement-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .achievement-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #365ecf;
+    gap: 20px;
+  }
+  
+  .achievement-item p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 25px;
+  }
+  
+  .achievement-decoration {
+    width: 50%;
+    height: 80px;
+    background: url("/assets/wave.png") no-repeat center center/cover;
+    background-size: cover;
+    background-image: -moz-linear-gradient( 0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    margin-top: 60px;
+
+  }
+  
+  /* About Company Section */
+  .about-company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -8px;
+  }
+  
+  .company-img {
+    width: 575px;
+    border-radius: none;
+    -webkit-border-radius: no;
+    -moz-border-radius: no;
+    -ms-border-radius: no;
+    -o-border-radius: no;
+    gap: 20px;
+}
+  
+  .about-text {
+    max-width: 400px;
+    text-align: left;
+    align-content: center;
+    font-size: 146px;
+    margin-top: -3px;
+
+
+  }
+  
+  .about-text h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  
+  .about-text p {
+    font-size: 17px;
+    color: #1e2a5a;;
+    text-align: start;
+    margin-bottom: 12px;
+  }
+  
+  .about-btn {
+    background: #4c7eff;
+    color: white;
+    border: none;
+    padding: 13px 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 4px; ;
+    transition: background 0.3s;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+}
+  
+  .about-btn:hover {
+    background: #365ecf;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .achievement-grid {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .about-company {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text {
+      text-align: center;
+    }
+  }
+  
