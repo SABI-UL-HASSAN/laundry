@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sabi-ul-hassan.github.io/laundry",
+  "homepage": "https://github.com/SABI-UL-HASSAN/laundry.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
